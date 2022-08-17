@@ -681,3 +681,228 @@ footer{
     color: #1b1a20;
     /* font-family: Graphik ; */
 }
+
+@media (max-width: 1180px) {
+    .hero_section{
+        margin-top: 15vh;
+    }
+    .hero_heading{
+        font-size: 30px!important;
+    }
+    .hero_content_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .hero_img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;        
+    }
+    .hero_img{
+        align-self: flex-start;
+        width: 76%;
+    }
+    .align_left{
+        display: none;
+    }
+    .section_wire{
+        width: 10vw;
+        right: 15%;
+    }
+    .step_card_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quality_section_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .quality_section{
+        padding-bottom: 10vh;
+    }
+    .quality_divisions{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .section5_wire{
+        width: 20vh;
+        right: 30%;
+        /* position: absolute; */
+    }
+    .training_pointer{
+        margin-left: 18vw;
+        margin-bottom: 2vh;
+    }
+    .quality_heading{
+        font-size: 36px;
+    }
+    .scope_card_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .scope_section_intro h1{
+        width: 90%;
+        font-size: 32px;
+    }
+    .custom_faq_card{
+        width: 80%;
+    }
+    .program_card_wrapper{
+        width: 90vw;
+    }
+    .structure_move{
+        display: none;
+    }
+    .industry_heading{
+        font-size: 45px;
+    }
+    .industry_box{
+        height: 100%;
+        padding-bottom: 10vh;
+    }
+    .nav_list{
+        width: 60vw;
+    }
+    .thumb_img {
+        width: 6vw;
+    }
+    .enroll_now {
+        padding: 1.5vh 3vw;
+        transform: translateX(-2.45vw);
+    }
+    .step_section_intro h1{
+        font-size: 32px;
+    }
+    .quality_decoration_img{
+        display: none;
+    }
+}
+
+@media (max-width: 970px) {
+    .nav_none_mobile{
+        display: none;
+    }
+    .nav_list{
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 900px) {
+    .step_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .scope_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .program_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .industry_heading{
+        width: 70%!important;
+    }
+    .scope_card{
+        padding: 4rem 2rem;
+    }
+    .min_logo{
+        width: 6vw;
+    }
+    .program_card{
+        border-radius: 3rem;
+    }
+    .program_card p{
+        font-size: 16px;
+    }
+    .program_card ul li{
+        font-size: 18px;
+    }
+    .scope_card {
+        border-radius: 2rem;
+    }
+    .welcome_content_wrapper{
+        grid-template-columns: 1fr;
+        padding: 5vh 0;
+    }
+    .welcome_logo_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome_logo_wrapper img{
+        width: 30%;
+    }
+    .welcome_txt1{
+        text-align: center;
+    }
+    .welcome_txt2{
+        text-align: center !important;
+    }
+    .step_card_txt{
+        font-size: 20px;
+    }
+    .scope_section_intro h1{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .quality_img_wrapper img{
+        width: 100%;
+    }
+    .quality_divisions{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer_img_wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all_social{
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    .copyright_policy {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_logo{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main_copyright{
+        font-size: 18px;
+    }
+    .conclusion_bottom{
+        font-size: 18px;
+        margin-top: 2vh;
+    }
+    .custom_faq_card {
+        width: 90vw;
+    }
+    .faq_heading {
+        font-size: 30px;
+    }
+    .faq_conclusion{
+        flex-direction: column;
+    }
+    .quality_txt{
+        width: 100%!important;
+        font-size: 20px!important;
+    }
+    .quality_heading{
+        font-size: 30px;
+    }
+    .star{
+        display: none;
+    }
+    .training_intro_grid{
+        grid-template-columns: 1fr;
+    }
+    .step_section_intro{
+        width: 100%;
+    }
+    .logo{
+        width: 80%;
+    }
+    .thumb_img{
+        width: 10vw;
+    }
+    .enroll_now {
+        padding: 1.5vh 5vw;
+        transform: translateX(-4.45vw);
+    }
+}
